@@ -53,4 +53,19 @@
         <attr name="tStampTextColorRcv" />
     </declare-styleable>
 
+    <declare-styleable name="chat_message">
+
+        <attr name="chatui_type" format="enum">
+            <enum name="sent" value="0" />
+            <enum name="recv" value="1" />
+        </attr>
+
+        <attr name="chatui_position" format="enum">
+            <enum name="top" value="0" />
+            <enum name="middle" value="1" />
+            <enum name="bottom" value="2" />
+        </attr>
+
+    </declare-styleable>
+
 </resources>
